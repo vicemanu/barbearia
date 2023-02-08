@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 850px) {
+
+    
+    #bg-header {
+        font-size: 1.4em;
+    }
+
+    #info-redes {
+        display: flex;
+        align-items: flex-end;
+        margin-top: -80px;
+    }
+    .informacoes {
+        width: 75%;
+        flex-direction: row;
+        border-radius: 0px 10px 0px 0px;
+    }
+    
+    .redes-sociais {
+        width: 30%;
+        height: 50px;
+        border-radius: 0px 0px 0px 0px;
+        
+    }
+    .redes-sociais a {
+        font-size: 1.3em;
+    }
+    
+
+    
+#local-agenda {
+    flex-direction: row;
+}
+
+#form-horario{
+    width: 80%;
+}
+
+}

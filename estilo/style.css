@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#bg-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+    opacity: 0.7;
+    box-shadow: -2px 7px 14px rgb(173 171 171);
+    background-color: white;
+    border-radius: 50%;
+}
+
+#bg-header {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url("../imagens/bg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: -2;
+}
+
+#bg-header > h1 {
+    margin-top: -60px;
+    margin-bottom: 5px;
+    font-size: 2.4em;
+}
+
+.bg-black {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.informacoes {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-info {
+    width: 33%;
+    text-align: center;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-info h2 {
+    font-size: 1.05em;
+    margin-bottom: 15px;
+}
+
+.box-info p {
+    font-size: 0.85em;
+}
+
+.redes-sociais {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #a77a22;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.redes-sociais a {
+    font-size: 1.2em;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: all 0.3;
+    color: white;
+}
+
+.redes-sociais a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+#wellcome {
+    width: 100%;
+    height: 350px;
+    background-color: #161414;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#wellcome h2 {
+    font-size: 2em;
+}
+
+#wellcome p {
+    margin-top: 20px;
+}
+#wellcome > h2 > span {
+    color: #a77a22;
+}
+
+#preco-info {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    min-height: 400px;
+    background: #141414;
+    color: #a77a22;
+    padding: 50px;
+}
+
+#preco-info h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+#preco-info .item {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    border-bottom: 1px #a77a22 dotted;
+    margin-top: 8px;
+    font-size: 0.85em;
+}
+
+#local-agenda {
+    width: 100%;
+    min-height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+
+#local-agenda div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#local-agenda h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#local-agenda iframe {
+    width: 80%;
+    height: 400px;
+    margin: 15px 0px;
+}
+
+h3 {
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-horario{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-horario input, #form-horario textarea {
+    margin-bottom: 10px;
+    background-color: #2b2a2a;
+    color: white;
+}
+
+#isubmit {
+    padding: 8px 5px;
+    border-radius: 10px;
+}
+
+#isubmit:hover {
+    background-color: rgb(85, 85, 85);
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 0,95em;
+    text-align: center;
+    padding: 8px 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #a77a22;
+}
+
+footer a:hover {
+    color: white;
+}
+
